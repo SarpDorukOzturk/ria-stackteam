@@ -1,0 +1,12 @@
+﻿{
+  "description": "MCP servers for NEXUS agent",
+  "required": [],
+  "optional": [
+    {
+      "name": "github",
+      "description": "Read PRs, issues, and file contents from GitHub repos",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "tools_used": ["get_file_contents", "list_pull_requests", "create_issue"]
+    }
+  ]
+}

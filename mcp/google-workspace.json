@@ -1,0 +1,18 @@
+{
+  "name": "google-workspace",
+  "displayName": "Google Workspace",
+  "description": "Gmail, Google Calendar, and Google Drive integration.",
+  "type": "url",
+  "services": {
+    "gmail": {
+      "url": "https://gmail.mcp.claude.com/mcp",
+      "tools": ["send_email", "read_email", "search_email", "create_draft"]
+    },
+    "google-calendar": {
+      "url": "https://gcal.mcp.claude.com/mcp",
+      "tools": ["create_event", "list_events", "update_event"]
+    }
+  },
+  "setup": "Connect each service separately via claude.ai Settings → Integrations. Authorize Google account.",
+  "docs": "https://workspace.google.com/products/mcp"
+}

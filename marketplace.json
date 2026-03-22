@@ -1,0 +1,58 @@
+{
+  "name": "ria-stackteam",
+  "displayName": "RIA Stack Team",
+  "description": "Open-source agent & skill library — research, strategy, ops, and output tools for Claude",
+  "version": "1.0.0",
+  "author": "SarpDorukOzturk",
+  "repository": "https://github.com/SarpDorukOzturk/ria-stackteam",
+  "license": "MIT",
+  "plugins": [
+    {
+      "id": "research",
+      "name": "Research Team",
+      "description": "POLYXA agent + deep-research, content-research-writer, article-extractor, meeting-insights-analyzer",
+      "skills": [
+        "agents/POLYXA",
+        "skills/deep-research",
+        "skills/content-research-writer",
+        "skills/article-extractor",
+        "skills/meeting-insights-analyzer"
+      ]
+    },
+    {
+      "id": "strategy",
+      "name": "Strategy Team",
+      "description": "SWOT, Porter's Five Forces, PESTLE analysis frameworks",
+      "skills": [
+        "skills/swot-analysis",
+        "skills/porters-five-forces",
+        "skills/pestle-analysis"
+      ]
+    },
+    {
+      "id": "ops",
+      "name": "Ops Team",
+      "description": "Internal communications, status reports, newsletters",
+      "skills": [
+        "skills/internal-comms"
+      ]
+    },
+    {
+      "id": "output",
+      "name": "Output Team",
+      "description": "Document generation — Word, PDF",
+      "skills": [
+        "skills/docx",
+        "skills/pdf"
+      ]
+    },
+    {
+      "id": "meta",
+      "name": "Meta Tools",
+      "description": "Tools for building and improving the system itself",
+      "skills": [
+        "skills/create-skill"
+      ]
+    }
+  ]
+}

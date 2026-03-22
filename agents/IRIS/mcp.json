@@ -1,0 +1,27 @@
+﻿{
+  "description": "MCP servers required by IRIS agent",
+  "required": [
+    {
+      "name": "gmail",
+      "url": "https://gmail.mcp.claude.com/mcp",
+      "tools_used": ["send_email", "read_email", "create_draft"]
+    },
+    {
+      "name": "google-calendar",
+      "url": "https://gcal.mcp.claude.com/mcp",
+      "tools_used": ["create_event", "list_events"]
+    }
+  ],
+  "optional": [
+    {
+      "name": "slack",
+      "url": "https://mcp.slack.com/mcp",
+      "tools_used": ["send_message", "create_draft"]
+    },
+    {
+      "name": "notion",
+      "url": "https://mcp.notion.com/mcp",
+      "tools_used": ["create_page", "search"]
+    }
+  ]
+}

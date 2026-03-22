@@ -1,0 +1,97 @@
+﻿{
+  "name": "ria-stackteam",
+  "version": "1.1.0",
+  "author": "SarpDorukOzturk",
+  "description": "Open-source agent & skill library for Claude and compatible AI tools",
+  "repository": "https://github.com/SarpDorukOzturk/ria-stackteam",
+  "teams": {
+    "research": "Research, writing, and report generation",
+    "strategy": "Business analysis and strategic frameworks",
+    "ops": "Operations, communications, and task management",
+    "data": "Data analysis, visualization, and metrics",
+    "dev": "Software development and engineering",
+    "output": "Document and file generation",
+    "meta": "Tools for building and improving the system"
+  },
+  "entries": [
+    {
+      "id": "POLYXA", "type": "agent",
+      "name": "POLYXA", "tags": ["research"],
+      "description": "Research & report intelligence agent with Pangram quality loop",
+      "path": "agents/POLYXA"
+    },
+    {
+      "id": "NEXUS", "type": "agent",
+      "name": "NEXUS", "tags": ["dev"],
+      "description": "Software development agent â€” features, bugs, review, refactor",
+      "path": "agents/NEXUS"
+    },
+    {
+      "id": "IRIS", "type": "agent",
+      "name": "IRIS", "tags": ["ops"],
+      "description": "Operations agent â€” email, calendar, tasks, Slack, internal comms",
+      "path": "agents/IRIS"
+    },
+    {
+      "id": "VEGA", "type": "agent",
+      "name": "VEGA", "tags": ["data"],
+      "description": "Data analysis agent â€” CSV, metrics, dashboards, SQL",
+      "path": "agents/VEGA"
+    },
+    {
+      "id": "deep-research", "type": "skill", "tags": ["research"],
+      "description": "Autonomous multi-step research with 8-phase pipeline",
+      "path": "skills/deep-research"
+    },
+    {
+      "id": "content-research-writer", "type": "skill", "tags": ["research"],
+      "description": "Research + citations + hook + section feedback",
+      "path": "skills/content-research-writer"
+    },
+    {
+      "id": "article-extractor", "type": "skill", "tags": ["research"],
+      "description": "Extract full article text and metadata from URLs",
+      "path": "skills/article-extractor"
+    },
+    {
+      "id": "meeting-insights-analyzer", "type": "skill", "tags": ["research", "ops"],
+      "description": "Meeting transcript to behavioral insights report",
+      "path": "skills/meeting-insights-analyzer"
+    },
+    {
+      "id": "swot-analysis", "type": "skill", "tags": ["strategy"],
+      "description": "SWOT with actionable recommendations per quadrant",
+      "path": "skills/swot-analysis"
+    },
+    {
+      "id": "porters-five-forces", "type": "skill", "tags": ["strategy"],
+      "description": "Competitive forces analysis",
+      "path": "skills/porters-five-forces"
+    },
+    {
+      "id": "pestle-analysis", "type": "skill", "tags": ["strategy"],
+      "description": "Macro environment analysis",
+      "path": "skills/pestle-analysis"
+    },
+    {
+      "id": "internal-comms", "type": "skill", "tags": ["ops"],
+      "description": "Status reports, newsletters, memos, announcements",
+      "path": "skills/internal-comms"
+    },
+    {
+      "id": "docx", "type": "skill", "tags": ["output"],
+      "description": "Create and edit Word documents",
+      "path": "skills/docx"
+    },
+    {
+      "id": "pdf", "type": "skill", "tags": ["output"],
+      "description": "Create, merge, annotate PDFs",
+      "path": "skills/pdf"
+    },
+    {
+      "id": "create-skill", "type": "skill", "tags": ["meta"],
+      "description": "Build new skills with proper structure and progressive disclosure",
+      "path": "skills/create-skill"
+    }
+  ]
+}

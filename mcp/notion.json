@@ -1,0 +1,10 @@
+{
+  "name": "notion",
+  "displayName": "Notion",
+  "description": "Read and write Notion pages, databases, and comments.",
+  "url": "https://mcp.notion.com/mcp",
+  "type": "url",
+  "tools": ["search", "create_page", "update_page", "get_page", "create_database", "query_database"],
+  "setup": "Connect via claude.ai Settings → Integrations → Notion. Authorize workspace access.",
+  "docs": "https://developers.notion.com/docs/mcp"
+}

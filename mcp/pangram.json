@@ -1,0 +1,15 @@
+{
+  "name": "pangram",
+  "displayName": "Pangram AI Detection",
+  "description": "AI text quality and naturalness scoring. Used by POLYXA for the Pangram quality loop.",
+  "url": "https://text.api.pangramlabs.com/v3",
+  "type": "url",
+  "tools": [
+    {
+      "name": "check_text",
+      "description": "Score text for AI-likeness (0-100). Higher score = more AI-like."
+    }
+  ],
+  "setup": "Create account at pangram.com. Connect via claude.ai Settings → Integrations.",
+  "docs": "https://pangram.com/docs"
+}

@@ -1,0 +1,12 @@
+﻿{
+  "description": "MCP servers for VEGA agent",
+  "required": [],
+  "optional": [
+    {
+      "name": "notion",
+      "url": "https://mcp.notion.com/mcp",
+      "tools_used": ["create_page"],
+      "description": "Store analysis results in Notion"
+    }
+  ]
+}

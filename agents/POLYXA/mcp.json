@@ -1,0 +1,26 @@
+{
+  "description": "MCP servers required by POLYXA agent",
+  "required": [
+    {
+      "name": "pangram",
+      "description": "AI text quality scoring — used for Pangram quality loop",
+      "url": "https://text.api.pangramlabs.com/v3",
+      "tools_used": ["check_text"],
+      "setup": "Requires Pangram API account at pangram.com"
+    }
+  ],
+  "optional": [
+    {
+      "name": "notion",
+      "description": "Store and retrieve reports in Notion",
+      "url": "https://mcp.notion.com/mcp",
+      "tools_used": ["create_page", "search"]
+    },
+    {
+      "name": "google-drive",
+      "description": "Save reports to Google Drive",
+      "url": "https://gdrive.mcp.claude.com/mcp",
+      "tools_used": ["create_file", "upload"]
+    }
+  ]
+}

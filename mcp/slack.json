@@ -1,0 +1,10 @@
+{
+  "name": "slack",
+  "displayName": "Slack",
+  "description": "Read channels, send messages, search conversations, manage drafts.",
+  "url": "https://mcp.slack.com/mcp",
+  "type": "url",
+  "tools": ["send_message", "read_channel", "search", "create_draft", "read_thread"],
+  "setup": "Connect via claude.ai Settings → Integrations → Slack. Authorize workspace.",
+  "docs": "https://api.slack.com/mcp"
+}
